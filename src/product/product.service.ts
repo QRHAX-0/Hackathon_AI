@@ -16,8 +16,10 @@ export class ProductService {
 
   async create(data: {
     name: string;
-    description?: string;
+    description: string;
     price: number;
+    category: string;
+    stock: number;
   }): Promise<Product> {
     return this.prisma.product.create({ data });
   }

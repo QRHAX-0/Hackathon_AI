@@ -24,14 +24,30 @@ export class ProductController {
   }
 
   @Post()
-  create(@Body() data: { name: string; description?: string; price: number }) {
+  create(
+    @Body()
+    data: {
+      name: string;
+      description: string;
+      price: number;
+      category: string;
+      stock: number;
+    },
+  ) {
     return this.productService.create(data);
   }
 
   @Put(':id')
   update(
     @Param('id') id: string,
-    @Body() data: { name?: string; description?: string; price?: number },
+    @Body()
+    data: {
+      name?: string;
+      description?: string;
+      price?: number;
+      category?: string;
+      stock?: number;
+    },
   ) {
     return this.productService.update(id, data);
   }

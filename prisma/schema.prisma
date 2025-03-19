@@ -10,7 +10,9 @@ datasource db {
 model Product {
   id          String   @id @default(uuid())
   name        String
-  description String?
+  description String
+  category    String
+  stock       Int      @default(0) // الكمية المتاحة في المخزون
   price       Float
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
