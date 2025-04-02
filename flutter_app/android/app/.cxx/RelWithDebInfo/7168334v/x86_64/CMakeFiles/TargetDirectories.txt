@@ -1,0 +1,2 @@
+/home/yousif/Hackathon/Hackathon_AI/flutter_app/android/app/.cxx/RelWithDebInfo/7168334v/x86_64/CMakeFiles/edit_cache.dir
+/home/yousif/Hackathon/Hackathon_AI/flutter_app/android/app/.cxx/RelWithDebInfo/7168334v/x86_64/CMakeFiles/rebuild_cache.dir

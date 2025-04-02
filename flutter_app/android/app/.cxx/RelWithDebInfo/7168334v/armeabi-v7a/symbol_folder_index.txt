@@ -1,0 +1,1 @@
+/home/yousif/Hackathon/Hackathon_AI/flutter_app/build/app/intermediates/cxx/RelWithDebInfo/7168334v/obj/armeabi-v7a
