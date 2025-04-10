@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/screens/login_view.dart';
+import 'package:myapp/screens/register.dart';
 import 'screens/home_screen.dart';
 
 void main() {
@@ -17,10 +18,10 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.orange,
         fontFamily: 'Arial',
         appBarTheme: AppBarTheme(
-          backgroundColor: const Color.fromARGB(255, 255, 150, 13),
+          backgroundColor: const Color(0xFFFF6B35),
         ),
       ),
-      home: LoginView(),
+      home: HomePage(),
     );
   }
 }

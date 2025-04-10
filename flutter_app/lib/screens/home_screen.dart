@@ -213,7 +213,7 @@ class _HomePageState extends State<HomePage> {
                           Text(
                             "${product.price.toStringAsFixed(2)} USD",
                             style: TextStyle(
-                              color: Colors.orange,
+                              color: Color(0xFFFF6B35),
                               fontSize: 12,
                             ),
                           ),
@@ -226,7 +226,7 @@ class _HomePageState extends State<HomePage> {
                             height: 30,
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.orange,
+                                backgroundColor:Color(0xFFFF6B35),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20),
                                 ),
