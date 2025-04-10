@@ -145,7 +145,6 @@ class _LoginViewState extends State<LoginView> {
                                 foregroundColor: const Color(0xFFFF6B35),
                                 overlayColor: Colors.transparent,
                                 padding: EdgeInsets.zero,
-                                minimumSize: Size.zero,
                                 visualDensity: VisualDensity.compact
                               ),
                               child: const Text('Sign Up'),
