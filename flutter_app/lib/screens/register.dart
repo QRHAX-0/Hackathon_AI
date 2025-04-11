@@ -139,7 +139,7 @@ class _RegisterState extends State<Register> {
                          child: Row(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            const Text('Don\'t have an account?'),
+                            const Text('You already have an account?'),
                             TextButton(
                               onPressed: () {},
                               style: TextButton.styleFrom(
